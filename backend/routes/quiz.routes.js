@@ -4,8 +4,6 @@ const {
   getRecentQuizzes,
   createQuiz,
   getQuizById,
-  submitQuiz,
-  getQuizResult,
 } = require("../controllers/quiz.controller");
 
 router.get("/recent", getRecentQuizzes);

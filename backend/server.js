@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const quizRoutes = require("./routes/quiz.routes");
-const quizResultsRoutes = require("./routes/quizResuts.routes");
+const quizResultsRoutes = require("./routes/quizResults.routes");
 
 require("dotenv").config();
 
